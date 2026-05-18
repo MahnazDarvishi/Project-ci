@@ -4,7 +4,7 @@ Ce projet a été développé dans le cadre du cours d'Analyse Prédictive du **
 
 ## 👥 Équipe de projet
 - **Mahnaz Darvishi**
-- **degenio**
+- **Salim Zergoug**
 
 ## 📊 Fonctionnalités du Pipeline (P1 - P3)
 - **P1 (Data Ingestion) :** Chargement et nettoyage automatique des données horaires de la RAMQ.
