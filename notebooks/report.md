@@ -1,19 +1,15 @@
-# 🏥 Analyse de Situation des Urgences
+# Rapport d'Analyse Prédictive des Urgences
 
-**Entropie calculée :** 1.5626
+**Entropie Initiale :** 1.5626
+**Gain d'Information (Nom Installation) :** 0.0409
 
-### Distribution des états :
-| Situation_Calculée   |   proportion |
-|:---------------------|-------------:|
-| Normal               |     0.378641 |
-| Critique             |     0.368932 |
-| Élevé                |     0.252427 |
-## 🧠 Analyse de Machine Learning Avancée
-- **Gain d'Information (Feature Selection) :** 0.0409
-- **Seuil d'anomalie statistique :** 174.61%
-- **Installations en saturation extrême :** 1
+## Comparaison des Modèles
+|                     |   Accuracy |   Precision |   Recall |   F1-Score |   Temps (sec) |
+|:--------------------|-----------:|------------:|---------:|-----------:|--------------:|
+| Itération 1 (Brute) |    1       |    1        |  1       |    1       |    0.0139596  |
+| Itération 2 (PCA)   |    0.73913 |    0.859903 |  0.73913 |    0.73913 |    0.00332594 |
 
-### 🌲 Modèle de Décision :
-![Arbre de Décision](arbre_decision.png)
+## Anomalies Détectées
+Nombre d'installations critiques : 1
 
-*Note : Ce modèle permet d'anticiper les ruptures de service basées sur l'entropie du système.*
+![Scree Plot](pca_variance_plot.png)
